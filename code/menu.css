@@ -1,0 +1,181 @@
+/****MAIN MENU DONG****************************************************************/
+
+/**** MENU RIGHT ALIGN*****/
+
+
+
+#menu {
+
+	position: absolute; bottom: 0; right: -16px;
+
+	z-index: 100; font-family: "proxima-nova-condensed","Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial,sans-serif;
+
+	}
+
+#menu.mobileClosed { display: block !important; }
+
+#menu ul { float: right;}
+
+#menu li { float: left; }
+
+
+
+#mobile { display: none; }
+
+
+
+#menu a {
+
+	display: inline-block; padding: 0 14px; height:30px;
+
+	text-decoration: none; line-height: 30px; border-top-left-radius:6px;
+
+	border-top-right-radius:6px; font-weight: 300;
+
+	}
+
+#menu a, #menu a:link, #menu a:visited { color: #000; }
+
+#menu a:hover, #menu a.cur { background-color: #198e74; color: #fff;  }
+
+#menu li#mhome{
+
+	width: 30px;
+
+	}
+
+#menu li#mhome a{
+
+	width: 30px;   padding-left: 0; text-indent: -9999em;
+
+	background: url(../images/topIcons.png) no-repeat 0 -276px transparent;
+
+	}
+
+#menu li#mhome a:hover, #menu li#mhome a.cur{
+
+	background-position: 0 -359px; background-color:transparent;
+
+	}
+
+
+
+#menu nav {
+
+	position: absolute; overflow: hidden;
+
+	top: 30px; right: 0; width: 380px;
+
+	padding: 18px 0 0; z-index: 101;
+
+	display: none;
+
+	}
+
+#subMenuBcgr {
+
+	background-color: #008265; height: 140px; width: 100%;
+
+	position: absolute; top: 120px; left: 0; z-index: 100;
+
+	display: none; opacity:.9;
+
+	}
+
+.jsOff #menu nav {
+
+	left: -9999em; display: block;
+
+	}
+
+.jsOff #menu .hasSubMenu:hover nav {
+
+	left: 0;
+
+	}
+
+
+
+#menu .mainSubMenu ul {
+
+	float: left;
+
+	}
+
+#menu .mainSubMenu li {
+
+	width: 140px;
+
+}
+
+#menu .mainSubMenu a {
+
+	padding: 80px 0 0;
+
+	background: url(../images/subMenuSprite.png) no-repeat center 0; width: 100%;
+
+	text-align: center; color: #fff; text-transform: uppercase;
+
+	}
+
+#menu #sub2 a { background-position:  center -190px; }
+
+#menu .mainSubMenu a:hover, #menu .mainSubMenu a.cur {
+
+	color: #8edbc9;
+
+	}
+
+
+
+#topSubMenu	{
+
+	position: absolute; width: 300px; height: 60px; top: 6px; right: 0;
+
+	text-align: right; font-size: 16px;
+
+	}
+
+#topSubMenu ul li {
+
+	margin-left: 8px; display: inline-block; vertical-align: middle;
+
+	}
+
+#topSubMenu #ph {
+
+	margin-left: 20px; background: url(../images/topIcons.png) no-repeat 0 3px;
+
+	padding: 0 0 0 24px;
+
+	}
+
+#topSubMenu #fax {
+
+	background: url(../images/topIcons.png) no-repeat 0 -90px;
+
+	padding: 0 0 0 24px;
+
+	}
+
+.fb a, .tw a, .gg a {
+
+	display: block; width: 26px; height: 26px; margin-top: 6px;
+
+	text-indent: 9999em; overflow: hidden;
+
+	background: url(../images/topIcons.png) no-repeat 0 -174px transparent;
+
+}
+
+.tw a {
+
+	background-position: 0 -33px;
+
+}
+
+.gg a {
+
+	background-position: 0 -33px;
+
+}
